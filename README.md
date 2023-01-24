@@ -22,11 +22,11 @@ As a result of this, the model is currently limited in its ability to identify f
 
 1. Fire up streamlit app with `streamlit run main.py`
 2. Here is a demo of the app using a sample image I took from google images:
-![](streamlit1.png)
+![](streamlit_1.png)
 3. The DETR model identifies the ingredients in the image:
-![](streamlit2.png)
+![](streamlit_2.png)
 4. The app then uses OpenAI's GPT3 API to generate the name of a recipe based on the ingredients. Finally GPT3 is called again to generate the steps for the suggested recipe.
-![](streamlit3.png)
+![](streamlit_3.png)
 
 
 
